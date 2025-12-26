@@ -1,0 +1,16 @@
+# Environment variables
+.env
+
+venv
+
+# Python cache
+__pycache__/
+
+# Temp files
+temp_files/
+
+# Virtual environment (extra safety)
+rk/Include/
+rk/Lib/
+rk/Scripts/
+venv/
