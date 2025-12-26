@@ -20,15 +20,9 @@ Features
 
 8. Excel File Format
 
-Column A: English sentences
-Row 1 (B, C, D...): Target languages
+9. Column A: English sentences
+   Row 1 (B, C, D...): Target languages
 
-Example:
-
-English | Hindi | French | German
-English | Hindi | French | German
-How are you | | |
-Good morning | | |
 
 Project Structure
 
@@ -129,14 +123,3 @@ Pandas
 Docker
 Uvicorn
 
-Future Enhancements
-
-Redis cache
-
-Batch translation
-
-Authentication
-
-Rate limiting
-
-Cloud deployment
