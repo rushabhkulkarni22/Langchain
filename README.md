@@ -4,21 +4,21 @@ This project provides a FastAPI-based REST API that accepts an Excel file, trans
 
 Features
 
-Upload Excel (.xlsx) file
+1. Upload Excel (.xlsx) file
 
-Column A contains English sentences (starting from row 2)
+2. Column A contains English sentences (starting from row 2)
 
-Row 1 (B1, C1, D1, etc.) contains target languages
+3. Row 1 (B1, C1, D1, etc.) contains target languages
 
-Translates text using OpenAI LLM
+4. Translates text using OpenAI LLM
 
-JSON cache to reduce API calls
+5. JSON cache to reduce API calls
 
-Dockerized application
+6. Dockerized application
 
-Persistent storage using Docker volumes
+7. Persistent storage using Docker volumes
 
-Excel File Format
+8. Excel File Format
 
 Column A: English sentences
 Row 1 (B, C, D...): Target languages
